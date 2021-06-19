@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "In_class_5_24"

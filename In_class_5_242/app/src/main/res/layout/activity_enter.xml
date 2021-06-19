@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2B7DA"
+    android:orientation="vertical"
+    tools:context=".enter">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="384dp"
+        android:layout_height="229dp"
+        android:focusedMonthDateColor="#111111"
+        android:weekSeparatorLineColor="#FA8000"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="427dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="請輸入項目名稱"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="請輸入金額"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#15D65B"
+        android:onClick="to_category"
+        android:text="選擇分類"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#E80A0A"
+        android:text="確定新增"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="語音輸入"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:onClick="to_more"
+        android:text="更多功能"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</LinearLayout>
